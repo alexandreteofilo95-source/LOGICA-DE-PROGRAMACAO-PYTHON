@@ -1,0 +1,15 @@
+#  DECLARANDO DE VARIAVEIS.
+nome: str
+idade: int
+peso: float
+
+#   ATRIBUINDO VALORES
+nome = "marta"
+idade = 25
+peso = 60.300
+
+
+# mostrando dados
+print(nome)
+print(idade)
+print(peso)
