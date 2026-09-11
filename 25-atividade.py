@@ -24,10 +24,3 @@ match (pagamento):
           print(f'total à prazo: {prazo}')
      case _:
           print('digite 1 ou 2')
-
-
-
-
-
-
- 
