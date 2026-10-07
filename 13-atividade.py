@@ -2,6 +2,7 @@ import os
 os.system('cls')
 NUMEROS_REPETIÇOES = 3
 soma = 0 
+
 for i in range(NUMEROS_REPETIÇOES):
     while True:
         n = float(input(f'Digite a {i + 1}º nota: '))
