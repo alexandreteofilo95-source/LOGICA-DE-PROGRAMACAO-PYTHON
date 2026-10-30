@@ -26,11 +26,12 @@ while True:
             if nome_produto == '':
                 print('O nome do produto de ser inserido...')
             elif nome_produto in lista_produtos:
-                print('Produto cadastrado com sucesso')
+                print('Produto ja cadastrado')
             else:
                 lista_produtos.append(nome_produto)
+            
                 print('produto cadastrado com sucesso!')
-                
+
         case 2:
             #READ(LER / BUSACAR)
             print('== PRODUTOS NO ESTOQUE ==')
