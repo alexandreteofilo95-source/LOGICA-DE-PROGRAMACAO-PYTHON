@@ -1,5 +1,12 @@
+from dataclasses import dataclass
 import os
 os.system('cls')
+@dataclass
+class produto:
+    nome: str
+    preco: float
+
+
 
 lista_produtos = []
 
