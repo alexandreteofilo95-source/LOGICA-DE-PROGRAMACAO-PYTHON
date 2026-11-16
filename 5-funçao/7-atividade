@@ -1,0 +1,12 @@
+import os
+os.system('cls')
+
+def calculo(numero):
+    print(f'metros: {numero} equivalem a : {centimetro} centimetros')
+    return centimetro
+
+numero = int(input('digite o valor em metros: '))
+centimetro = numero * 10
+
+print('\n = EXIBINDO RESULTADO =')
+calculo(numero)
