@@ -26,23 +26,24 @@ class paciente:
 lista_dados = []
 
 for i in range(1):
-    dados_do_cliente = cliente(
-    #nome= input('digite seu nome: ')
+    dados_do_cliente = paciente(
+    nome= input('digite seu nome: '),
     idade= int(input('digite sua idade: ')),
-    telefone= int(input('digite seu telefone: ')),
+    telefone= input('digite seu telefone: '),
     endereco= input('digite seu endereço: ')
     )
     lista_dados.append(dados_do_cliente)
 
 print('\n= EXIBINDO DADOS=')
 for paciente in lista_dados:
-    def pacientes():
-        ...
+    paciente.pacientes()
+
+        
 
 print('\n= EXIBINDO DADOS=')
 for paciente in lista_dados:
-    def dados():
-        ...
+    paciente.dados()
+
 print('\n= EXIBINDO DADOS=')
-def outros_dados():
-    ...
+for paciente in lista_dados:
+    paciente.outros_dados()
